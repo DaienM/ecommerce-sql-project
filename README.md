@@ -17,9 +17,9 @@ Orders	           Stores orders placed by users (order_id, user_id, order_date)
 Order_Items	      Stores products included in each order (order_item_id, order_id, product_id, quantity)
 
 Relationships:
-One-to-many: Users → Orders
-One-to-many: Orders → Order_Items
-One-to-many: Products → Order_Items
+* One-to-many: Users → Orders
+* One-to-many: Orders → Order_Items
+* One-to-many: Products → Order_Items
 
 2. Skills Demonstrated
 
@@ -34,7 +34,7 @@ One-to-many: Products → Order_Items
 
 3. Project Structure
 ecommerce-sql-project/
- ├── schema.sql         -- Database schema definitions
- ├── sample_data.sql    -- Sample records for testing
- ├── queries.sql        -- Practical SQL queries with examples
- └── README.md          -- Project description and instructions
+ * schema.sql         - Database schema definitions
+ * sample_data.sql    - Sample records for testing
+ * queries.sql        - Practical SQL queries with examples
+ * README.md          - Project description and instructions
