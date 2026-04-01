@@ -12,9 +12,9 @@ The database includes four main tables:
 Table	            Description
 
 Users	            Stores user information (user_id, username, email, created_at)
-Products	        Stores product information (product_id, product_name, price, stock)
-Orders	          Stores orders placed by users (order_id, user_id, order_date)
-Order_Items	      Stores products included in each order (order_item_id, order_id, product_id, quantity
+Products	         Stores product information (product_id, product_name, price, stock)
+Orders	           Stores orders placed by users (order_id, user_id, order_date)
+Order_Items	      Stores products included in each order (order_item_id, order_id, product_id, quantity)
 
 Relationships:
 One-to-many: Users → Orders
