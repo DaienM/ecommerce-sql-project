@@ -1,11 +1,9 @@
 # ecommerce-sql-project
-A fully designed E-Commerce database project demonstrating SQL skills like schema design, data population and practical queries.
-This projects is ideal for demonstrating database design, query writing, and data handling and analysing skills. It includes:
+A fully designed E-Commerce database project demonstrating SQL skills like schema design, data population and practical queries. It includes:
 
 * Database schema- tables for Users, Products, Orders, Order_Items- demonstrating primary and    foreign key relationships.
 * Sample data - for database testing and demonstrating the purpose.
-* Practical queries ranging from JOINS, AGGREGATION, SUBQUERIES, Data analysis.
-
+* Practical queries
 ---
 
 1. Database Schema
